@@ -149,6 +149,7 @@ main {
   font-weight: 600;
   font-size: 20px;
   color: #757575;
+  margin-bottom: 20px;
 }
 .resume .discription {
   font-weight: 400;
@@ -174,7 +175,29 @@ main {
   margin-bottom: 50px;
 }
 
-.button{
+.button {
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+/* contact style */
+.contact {
+  display: flex;
+  gap: 100px;
+  background: #fff8f3;
+  padding: 130px 200px;
+}
+
+.contact .section-title {
+  text-align: left;
+}
+
+.contact-description {
+  padding: 10px;
+}
+
+.contact-titleP {
+  font-weight: 700;
+  font-size: 35px;
 }
