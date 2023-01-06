@@ -130,36 +130,39 @@ main {
   font-weight: 400;
   font-size: 16px;
   color: #757575;
-
-
 }
 
 /* resume style */
-.resume-content {
+.resume-info {
   display: flex;
+  gap: 30px;
 }
 
-.resume-title {
-}
-
-.resume-item {
-}
-
-.resume.title {
+.resume .title {
   font-weight: 700;
   font-size: 25px;
   color: #474747;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
-
-.resume.sub-title {
+.resume .sub-title {
   font-weight: 600;
   font-size: 20px;
+  color: #757575;
 }
-
-.resume.description {
+.resume .discription {
   font-weight: 400;
   font-size: 16px;
+  color: #757575;
 }
+
+.resume-titel {
+  font-weight: 700;
+  font-size: 30px;
+  color: #474747;
+  margin: 70px;
+}
+
 .skills-head {
   color: #181818;
 }
